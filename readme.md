@@ -16,15 +16,19 @@
 1. Клонируйте репозиторий:
    ```bash
    git clone https://github.com/German-devth/mcp-fastapi-flet.git
+   ```
+2. Перейдите в папку с проектом
+   ```bash
    cd mcp-fastapi-flet
    ```
-2. Создайте виртуальное окружение и активируйте его:
+   
+3. Создайте виртуальное окружение и активируйте его:
    ```bash
    python -m venv venv
    source venv/bin/activate  # Для Linux/macOS
    venv\Scripts\activate  # Для Windows
    ```
-3. Установите зависимости:
+4. Установите зависимости:
    ```bash
    pip install -r req.txt
    ```
