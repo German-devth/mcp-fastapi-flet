@@ -10,7 +10,6 @@
 - **Uvicorn-сервер** (`uvicorn_impl/uvicorn_server.py`) — запускает Uvicorn-сервер для FastAPI.
 - **MCP-сервер** (`mcp_impl/server.py`) — осуществляет выполнение запросов к сторонним API.
 - **MCP-клиент** (`mcp_impl/client.py`) — управляет соединением с MCP-сервером.
-- **gRPC-сервис** (`grpc_impl/services.py`) — предоставляет методы взаимодействия с gRPC API.
 - **Flet-приложение** (`flet_impl/flet_app.py`) — запускает Flet-приложение в браузере для интерактивной работы пользователя.
 
 ## Установка
