@@ -24,9 +24,9 @@
    
 3. Создайте виртуальное окружение и активируйте его:
    ```bash
-   python -m venv venv
-   source venv/bin/activate  # Для Linux/macOS
-   venv\Scripts\activate  # Для Windows
+   python -m venv .venv (либо python3 -m venv .venv)
+   source .venv/bin/activate  # Для Linux/macOS
+   .venv\Scripts\activate  # Для Windows
    ```
 4. Установите зависимости:
    ```bash
@@ -49,7 +49,7 @@ NEWS_API_KEY=
 
 
 ```bash
-python main.py
+python main.py (либо python3 main.py)
 ```
 
 ### Перейти в браузере по адресу
