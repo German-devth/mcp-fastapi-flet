@@ -24,11 +24,18 @@
    
 3. Создайте виртуальное окружение и активируйте его:
    ```bash
-   python -m venv .venv (либо python3 -m venv .venv)
+   python -m venv .venv
+   ```
+   либо
+   ```bash
+   python3 -m venv .venv
+   ```
+Активация виртуального окружения
+   ```bash
    source .venv/bin/activate  # Для Linux/macOS
    .venv\Scripts\activate  # Для Windows
    ```
-4. Установите зависимости:
+5. Установите зависимости:
    ```bash
    pip install -r req.txt
    ```
@@ -49,7 +56,11 @@ NEWS_API_KEY=
 
 
 ```bash
-python main.py (либо python3 main.py)
+python main.py
+```
+либо
+```bash
+python3 main.py
 ```
 
 ### Перейти в браузере по адресу
@@ -90,6 +101,10 @@ POST /full_data
 
 ```bash
 python flet_app.py
+```
+либо
+```bash
+python3 flet_app.py
 ```
 
 \* Приложение полноценно работает при запущенном MCP и FastAPI с Uvicorn
