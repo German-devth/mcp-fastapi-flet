@@ -15,7 +15,7 @@
 ## Установка
 1. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/German-devth/!!!.git
+   git clone [https://github.com/German-devth/!!!.git](https://github.com/German-devth/mcp-fastapi-flet.git)
    cd fastapi-grpc-proxy
    ```
 2. Создайте виртуальное окружение и активируйте его:
