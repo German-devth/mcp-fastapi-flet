@@ -1,4 +1,4 @@
-# MCP + FastAPI + Flet Prox
+# MCP + FastAPI + Flet
 
 ## Описание
 
