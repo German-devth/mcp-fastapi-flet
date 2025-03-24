@@ -17,12 +17,12 @@
    ```bash
    git clone https://github.com/German-devth/mcp-fastapi-flet.git
    ```
-2. Перейдите в папку с проектом
+2. Перейдите в папку с проектом:
    ```bash
    cd mcp-fastapi-flet
    ```
    
-3. Создайте виртуальное окружение и активируйте его:
+3. Создайте виртуальное окружение:
    ```bash
    python -m venv .venv
    ```
@@ -30,7 +30,7 @@
    ```bash
    python3 -m venv .venv
    ```
-Активация виртуального окружения
+4. Активация виртуального окружения:
    ```bash
    source .venv/bin/activate  # Для Linux/macOS
    .venv\Scripts\activate  # Для Windows
